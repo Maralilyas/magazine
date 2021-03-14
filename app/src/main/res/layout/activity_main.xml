@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Оқу бағытыңыз"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/gumanitarlyk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="Гуманитарлық"/>
+        <RadioButton
+            android:id="@+id/jaratylystanu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:text="Жаратылыстану"/>
+
+
+    </RadioGroup>
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Таңдау пәндеріңіз"
+        />
+    <TextView
+        android:id="@+id/tandaupan"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="таңдау"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Баспа түрі"
+        />
+    <TextView
+        android:id="@+id/baspa"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="таңдау"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Төлем жасау түрі"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:text="Банк карточкасы арқылы"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/kolma_kol"
+            android:layout_width="wrap_content"
+            android:text="Қолма қол ақша арқылы"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Жеткізу"
+        />
+    <CheckBox
+        android:id="@+id/meken_jai"
+        android:layout_width="wrap_content"
+        android:text="Мекен-жайға жеткізу"
+        android:layout_height="wrap_content"
+        />
+    <CheckBox
+        android:id="@+id/surprise"
+        android:layout_width="wrap_content"
+        android:text="Сыйлық ретінде"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/jiberu"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Жіберу"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
